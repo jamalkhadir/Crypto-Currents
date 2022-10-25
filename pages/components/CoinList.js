@@ -6,7 +6,6 @@ export default function CoinList({filteredCoins}){
             {filteredCoins?.map(coin => {
                 return (
                     <Coins
-                        key = {coin.id}
                         image = {coin.image}
                         name = {coin.name}
                         symbol = {coin.symbol}
@@ -15,6 +14,7 @@ export default function CoinList({filteredCoins}){
                         priceChange = {coin.price_change_percentage_24h}
                         low = {coin.low_24h}
                         high = {coin.high_24h}
+                        key = {coin.id}
                     />
                 )
             })}
