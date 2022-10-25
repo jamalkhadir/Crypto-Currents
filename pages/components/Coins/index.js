@@ -16,11 +16,11 @@ const Coins = ({image, name, symbol, id, price, priceChange, low, high}) => {
             <p className={styles.coin_price}>${price}</p>
             {priceChange < 0 ? (
               <p className={styles.coin_percent,styles.red}>
-                {priceChange.toFixed(2)}%
+                {priceChange?.toFixed(2)}%
               </p>
             ) : (
               <p className={styles.coin_percent,styles.green}>
-                {priceChange.toFixed(2)}%
+                {priceChange?.toFixed(2)}%
               </p>
             )}
             <p className={styles.coin_low}>Low (24h): ${low}</p>
