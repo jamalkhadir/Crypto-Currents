@@ -3,7 +3,7 @@ import Coins from './Coins'
 export default function CoinList({filteredCoins}){
     return (
         <>
-            {filteredCoins.map(coin => {
+            {filteredCoins?.map(coin => {
                 return (
                     <Coins
                         key = {coin.id}
