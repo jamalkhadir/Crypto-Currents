@@ -1,1 +1,1 @@
-Crypto Currents is a crypto-tracker that displays relevant information about the 30 highest-volume cryptocurrencies! Updates are live upon refresh using the CoinGecko API. Built with React & NextJS. See the project here: https://crypto-currents.vercel.app
+Crypto Currents is a crypto tracker that displays relevant information about the 30 highest-volume cryptocurrencies! Updates are live upon refresh using the CoinGecko API. Built with React & NextJS. See the project here: https://crypto-currents.vercel.app
