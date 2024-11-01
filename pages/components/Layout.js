@@ -6,7 +6,7 @@ const Layout = ({children, title="Crypto Currents"}) => {
         <div className = "Layout">
             <Head>
                 <title>Crypto Currents</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.ico"/>
             </Head>
             <header className="header">
                 <Link href="/" passHref>
