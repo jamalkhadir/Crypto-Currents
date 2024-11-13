@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar'
 export default function Home({ filteredCoins }) {
   const [search, setSearch] = useState('')
   const coinColl = filteredCoins.filter(coin =>
-    coin.name.toLowerCase().includes(search.toLowerCase() || coin.symbol.toLowerCase().includes(search.toLowerCase())
+    coin.name.toLowerCase().includes(search.toLowerCase()) || coin.symbol.toLowerCase().includes(search.toLowerCase())
     )
     const searcher = eve => {
       eve.preventDefault()
